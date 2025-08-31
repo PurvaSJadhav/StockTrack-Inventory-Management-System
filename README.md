@@ -1,5 +1,7 @@
-### StockTrack: Inventory Management System 📦
+# StockTrack: Inventory Management System 📦
 StockTrack is a full-stack web application designed to provide a simple and efficient solution for managing products, tracking stock levels, and analyzing sales data. Built with the MERN stack, it features a secure RESTful API and a responsive, user-friendly interface.
+
+### Visit Site On: https://stocktrack-inventory-mgnt-sys.onrender.com
 
 ## ✨ Features
 User Authentication: Secure user registration and login system using JSON Web Tokens (JWT).
@@ -10,7 +12,7 @@ Low-Stock Alerts: A visual badge highlights products with stock levels below 5.
 Sales Analytics: A dedicated sales report page showing total revenue and best-selling products.
 Responsive Design: A clean, modern interface that works on both desktop and mobile devices.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend: React, Vite, Tailwind CSS, React Router, Axios
 Backend: Node.js, Express.js
 Database: MongoDB with Mongoose
@@ -31,7 +33,7 @@ MongoDB (or a MongoDB Atlas account)
 - npm install
 - Create a .env file in the backend root directory and add the following environment variables:
 
-# Code snippet
+### Code snippet
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_super_secret_jwt_key
@@ -46,7 +48,7 @@ Start the backend server:
 - npm install
 - Create a .env file in the frontend root directory and add the following:
 
-# Code snippet
+### Code snippet
 VITE_API_URL=http://localhost:5000/api
 
 - npm run dev

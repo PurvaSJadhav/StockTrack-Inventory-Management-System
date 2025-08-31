@@ -9,7 +9,7 @@ const HomePage = () => {
       <Navbar />
 
       <main
-        className="relative flex-grow flex items-center justify-center bg-cover bg-center"
+        className="relative flex-grow flex items-center justify-center bg-gray-900 bg-cover bg-center"
         style={{ backgroundImage: "url('/bg-image.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
